@@ -1,0 +1,14 @@
+/*Estilos generales*/
+
+
+/* ----- Validaciones de formularios ----- */
+
+/* Tooltips errors */
+.form-group{position: relative;}
+.tooltip_background{background-color: #f7eaea; border: 1px solid red !important;}
+.tooltip_alert{position: absolute; background-color: #bf0101; cursor: pointer; position: absolute; right: 10px; top: calc(50% + 2px); border-radius: 250px;}
+.tooltip_alert:after{font-family: FontAwesome; content: '\f071'; color: white;}
+.tooltip_alert,
+.tooltip_alert:after{width: 25px; height: 25px; display: flex; align-items: center; justify-content: center;}
+.tooltip_offset .tooltip_alert{right: 35px;}
+
